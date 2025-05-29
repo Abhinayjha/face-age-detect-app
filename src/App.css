@@ -1,0 +1,221 @@
+.faceDetectionContainer {
+    width: 80%;
+    background: #222b29;
+    border-radius: 25px;
+    margin: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 15px 50px black;
+}
+
+.faceDetectionbox {
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+    background: #2a3433;
+    border-radius: 15px;
+    padding: 5%;
+    display: grid;
+    place-items: center;
+}
+
+.faceTitle {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px auto 20px auto;
+}
+
+.faceSubtitle {
+    text-align: center;
+    color: white;
+    margin: 5px 100px 25px 100px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.faceInputBox {
+    display: grid;
+    place-items: center;
+    background: white;
+    width: 28%;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.faceDetectionInput {
+    width: 40% !important;
+    display: none !important;
+}
+
+.detectButton {
+    border-radius: 30px !important;
+    padding: 5px 40px !important;
+    font-weight: 500 !important;
+    margin-bottom: 10px;
+}
+
+.dragBox {
+    border: 2px dotted #0d6efd;
+    border-radius: 19px;
+    width: auto;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.uploadImageBox {
+    max-width: 300px;
+    height: auto;
+    border-radius: 25px;
+    object-fit: cover;
+    border: 3px dotted rgba(143, 251, 212, 1);
+}
+
+.paragraphStyle {
+    color: white;
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+/* media query start here  */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .faceDetectionContainer {
+        width: 95%;
+        background: #222b29;
+        border-radius: 25px;
+        margin: 50px auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 15px 50px black;
+    }
+
+    .faceDetectionbox {
+        width: 90%;
+        height: 100%;
+        margin: 5%;
+        background: #2a3433;
+        border-radius: 15px;
+        padding: 0%;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    .faceSubtitle {
+        text-align: center;
+        color: white;
+        margin: 5px 5% 25px 5%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .faceTitle {
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        margin: 20px auto 20px auto;
+    }
+
+    .faceInputBox {
+        display: grid;
+        place-items: center;
+        background: white;
+        width: 100%;
+        height: 210px;
+        border-radius: 20px;
+    }
+
+    .dragBox {
+        border: 2px dotted #0d6efd;
+        border-radius: 19px;
+        width: 90%;
+        height: 130px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        text-align: center;
+        padding: 5px 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .faceSubtitle {
+        text-align: center;
+        color: white;
+        margin: 5px 0% 25px 0%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .faceInputBox {
+        display: grid;
+        place-items: center;
+        background: white;
+        width: 52%;
+        height: 210px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .faceSubtitle {
+        text-align: center;
+        color: white;
+        margin: 5px 0% 25px 0%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .faceInputBox {
+        display: grid;
+        place-items: center;
+        background: white;
+        width: 39%;
+        height: 210px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1280px) {
+    .faceInputBox {
+        display: grid;
+        place-items: center;
+        background: white;
+        width: 32%;
+        height: 210px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .faceInputBox {
+        display: grid;
+        place-items: center;
+        background: white;
+        width: 60%;
+        height: 210px;
+        border-radius: 20px;
+    }
+
+    .paragraphStyle {
+        color: white;
+        margin-top: 15px;
+        font-weight: 500;
+        font-family: cursive;
+        width: 95%;
+        margin-left: 10px !important;
+    }
+}
+
+/* media query end here  */

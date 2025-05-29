@@ -1,0 +1,8 @@
+body {
+    background: linear-gradient(90deg, rgba(146, 255, 216, 1) 0%, rgba(144, 250, 212, 1) 55%, rgba(143, 251, 212, 1) 100%) !important;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
